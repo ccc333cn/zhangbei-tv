@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 给不让第三方声明桌面的电视（TCL）用：把 HomeEntry 整个去掉，就是个普通 App -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application>
+        <activity-alias
+            android:name=".HomeEntry"
+            tools:node="remove" />
+    </application>
+</manifest>
